@@ -1,0 +1,23 @@
+@keyframes spin{
+   0% {
+        transform: rotate(0deg);
+    }
+    15%{
+        transform:rotate(160deg);
+    }
+    90%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.Emoji-Animation{
+    animation: spin 4s infinite linear;
+    display: inline-block;
+    font-size: 200px;
+    margin-left: 600px;
+    margin-top: 300px;
+    
+}
